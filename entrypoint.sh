@@ -23,5 +23,5 @@ sonar-scanner \
 	-Dsonar.login=${INPUT_LOGIN} \
 	-Dsonar.password=${INPUT_PASSWORD} \
 	-Dsonar.sources=. \
-	-Dsonar.sourceEncoding=UTF-8 \
+	-Dsonar.sourceEncoding=UTF-8 -X
 
